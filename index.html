@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Authentication Example</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Signup</h1>
+    <div id="signup-form">
+      <label for="fullname">Full Name:</label>&nbsp;
+      <input type="text" id="fullname" required><br>
+      
+      <label for="email">Email:</label>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="email" id="email" required><br>
+      
+      <label for="password">Password:</label>&nbsp;
+      <input type="password" id="password" required><br>
+      
+      <label for="confirm-password">Confirm Password:</label>
+      <input type="password" id="confirm-password" required><br>
+      
+      <button id="signup-btn">Signup</button>
+    </div>
+    
+    <div id="profile" style="display: none;">
+      <h1>Welcome to the Profile page!</h1>
+      <div id="profile-details"></div>
+      <button id="logout-btn">Logout</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
